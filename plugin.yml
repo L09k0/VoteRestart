@@ -1,0 +1,13 @@
+name: VoteServer
+version: 1.0
+author: "L09k0"
+main: voteserver.main.main
+api-version: "1.18"
+
+commands:
+  voterestart:
+    description: "Голосования за рестарт сервера"
+    usage: "Command \"/voterestart\" not must arguments!"
+  vote:
+    description: "Голосование за рестарт сервера"
+    usage: /vote yes or no
